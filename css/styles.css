@@ -5,27 +5,91 @@
     --nav-bg-color: #ffffff;
     --main-bg-color:#E5E5E5;
     --special-bg-color:#2F303A;
-}
+}header
+/* body */
 body {
     color: var(--primary-text-color);
-    background-color: ;
+    background-color: var(--main-bg-color);
     font-family: "Roboto", "Raleway";
 }
-.nav-link {
+/* header */
+.logo {
         color:#000000;
         text-decoration: none;
         font-family: 'Raleway';
-        font-style: inherit;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
-    
-        letter-spacing: 0.03em;
-}
-.logo {
+        line-height: 1.19;}
+.logo-color {
     color: var(--special-text-color)
 }
-.nav-link:vover,
-.nav-link:focus {
+.list {
+    list-style: none;
+}
+.nav-item {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--special-text-color);
     text-decoration: underline var(--special-text-color);
 }
+.nav .nav-item.current {
+    color: var(--special-text-color)
+}
+.contacts-mail,
+.contacts-tel {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contacts-mail:hover, :focus {
+    color: var(--special-text-color);
+}
+.contacts-tel:hover,
+:focus {
+    color: var(--special-text-color);}
+/* service order */
+.section {
+    background-color: var(--special-bg-color);
+}
+.title {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+        
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.order-button {
+    color: #ffffff;
+    background-color: var(--special-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+         
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+/* Company rules */
+
+
