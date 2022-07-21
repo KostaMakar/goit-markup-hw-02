@@ -39,7 +39,6 @@ body {
 .nav-item:hover,
 .nav-item:focus {
     color: var(--special-text-color);
-    text-decoration: underline var(--special-text-color);
 }
 .nav .nav-item.current {
     color: var(--special-text-color)
@@ -126,5 +125,110 @@ body {
 /* Team */
 .team {
     background-color: #F5F4FA;
+}
+.team-list-title {
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    
+    letter-spacing: 0.03em;
+}
+.team-list-text {
+    color: var(--secondary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+        
+    letter-spacing: 0.03em;
+}
+/* footer */
+.footer {
+    background-color: var(--special-bg-color);
+}
+.footer-logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    letter-spacing: 0.03em;
+}
+.location {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    
+    letter-spacing: 0.03em;
+}
+.location:hover,
+.location:focus {
+    color: var(--special-text-color);
+}
+.mail,
+.tel {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    
+    letter-spacing: 0.03em;
+}
+.mail:hover, :focus {
+    color: var(--special-text-color);
+}
+.tel:hover, :focus {
+    color: var(--special-text-color)
+}
+
+/* PORTFOLIO */
+
+.btn {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.btn:hover, :focus {
+    color: #FFFFFF;
+    background-color: var(--special-text-color);
+}
+.images-title {
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    
+    letter-spacing: 0.06em;
+}
+.images-text {
+    color: var(--secondary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    
+    letter-spacing: 0.03em;
 }
 
