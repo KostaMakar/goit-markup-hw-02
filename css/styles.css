@@ -54,11 +54,12 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.contacts-mail:hover, :focus {
+.contacts-mail:hover,
+.contacts-mail:focus {
     color: var(--special-text-color);
 }
 .contacts-tel:hover,
-:focus {
+.contacts-tel:focus {
     color: var(--special-text-color);}
 /* service order */
 .section {
@@ -79,6 +80,7 @@ body {
 .order-button {
     color: #ffffff;
     background-color: var(--special-text-color);
+    cursor: pointer;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -101,6 +103,7 @@ body {
     text-transform: uppercase;
 }
 .rules-text {
+    color: var(--secondary-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -179,6 +182,7 @@ body {
 .mail,
 .tel {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -187,10 +191,12 @@ body {
     
     letter-spacing: 0.03em;
 }
-.mail:hover, :focus {
+.mail:hover,
+.mail:focus {
     color: var(--special-text-color);
 }
-.tel:hover, :focus {
+.tel:hover,
+.tel:focus {
     color: var(--special-text-color)
 }
 
