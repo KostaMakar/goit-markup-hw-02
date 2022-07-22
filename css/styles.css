@@ -5,7 +5,7 @@
     --nav-bg-color: #ffffff;
     --main-bg-color:#E5E5E5;
     --special-bg-color:#2F303A;
-}header
+}
 /* body */
 body {
     color: var(--primary-text-color);
